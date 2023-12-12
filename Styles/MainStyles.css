@@ -74,6 +74,9 @@ section {
 .form-group {
     margin-bottom: 20px;
 }
+/*
+Why having different css files might be important? 
+*/
 
 .form-group label {
     display: block;

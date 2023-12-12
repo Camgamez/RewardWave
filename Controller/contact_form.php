@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send the email
     $mail_success = mail($to, $subject, $message_body, $headers);
+    // The function mail() needs to be initialized in the server. I need to investigate how that's done. 
 
     if ($mail_success) {
         echo "Thank you for your message. We will get back to you soon!";
